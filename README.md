@@ -25,3 +25,7 @@ env.query_password secretpassword
 ```
 
 Copy the script (ts3clients.py) to `/usr/local/munin/lib/plugins/ts3clients` and create a symlink to it in the `/etc/munin/plugins` directory. Use the command `munin-run ts3clients` to make sure that the script works as it should and then restart munin-node to activate it.
+
+### Example graph
+
+![Example graph](/example_graph.png?raw=true)
